@@ -194,7 +194,7 @@ def target_weight():
 
 
 def gender():
-    n=input("Specify your gender(Male\Female):").lower()
+    n=input("Specify your gender(Male\\Female):").lower()
     if n == "male" or n == "female":
         return n
     else:
